@@ -6,7 +6,10 @@
     "configurations": [
     {
         "name": "clang++ - Build and debug active file",
-        "type": "cppdbg",
+        
+        //"type": "cppdbg", // This was the standard option
+        "type": "lldb", // Install "CodeLLDB" extension for this option to get debugging on M1
+        
         "request": "launch",
         "program": "${workspaceFolder}/template/03-with-vscode/03.out",
         "args": [],
@@ -17,5 +20,10 @@
         "MIMode": "lldb",
         "preLaunchTask": "clang++ build active file"
     }
-    ]
-}  
+    ],
+    "logging": {
+        "trace": true,
+        "traceResponse": true,
+        "engineLogging": true
+    }
+}
