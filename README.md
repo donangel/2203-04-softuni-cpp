@@ -14,7 +14,7 @@ There are many articles on the net how to do this. I recommend using plain-old [
 
 There are other articles there too, like [How to create the boilerplate code in VS Code?](https://www.geeksforgeeks.org/how-to-create-the-boilerplate-code-in-vs-code/).
 
-And, of course, there's THE tutorial from Microsoft (Using Clang in Visual Studio Code)[https://code.visualstudio.com/docs/cpp/config-clang-mac], which guides you how to configure it all.
+And, of course, there's THE tutorial from Microsoft [Using Clang in Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-clang-mac), which guides you how to configure it all.
 
 ### Fixing default Debug extension for M1 ###
 
