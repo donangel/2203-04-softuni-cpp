@@ -1,12 +1,16 @@
-#include "stdcpp.h"
+#include <iostream>
+#include <vector>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-    int a= 2, b=4;
+    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
 
-    cout << "Hello, world! This is " << a+b << endl;
-
-    return 0;
+    for (const string& word : msg)
+    {
+        cout << word << " ";
+    }
+    cout << endl;
 }
