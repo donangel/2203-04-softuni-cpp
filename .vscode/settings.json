@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "ctgmath": "cpp",
+        "latch": "cpp"
+    }
+}
