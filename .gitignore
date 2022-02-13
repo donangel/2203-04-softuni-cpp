@@ -7,8 +7,9 @@
 *.o
 *.obj
 
-# .out.dSYM directories
+# dSYM directories
 *.out.dSYM
+*.dSYM
 
 # Precompiled Headers
 *.gch
