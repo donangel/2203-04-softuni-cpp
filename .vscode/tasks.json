@@ -11,9 +11,9 @@
 				"-std=c++17",
 				"-stdlib=libc++",
 				"-g",
-				"${file}",
+				"${workspaceFolder}/template/03-with-vscode/*.cpp",
 				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}"
+				"${workspaceFolder}/template/03-with-vscode/03.out"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"
